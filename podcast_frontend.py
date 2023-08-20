@@ -45,13 +45,13 @@ def main():
         for moment in key_moments.split('\n'):
             st.markdown(
                 f"<p style='margin-bottom: 5px;'>{moment}</p>", unsafe_allow_html=True)
-        with col3:
-            st.subheader("Podcast Guest")
-            st.write(podcast_info['podcast_guest']['name'])
+        # with col3:
+        #     st.subheader("Podcast Guest")
+        #     st.write(podcast_info['podcast_guest']['name'])
 
-        with col4:
-            st.subheader("Podcast Guest Details")
-            st.write(podcast_info["podcast_guest"]['summary'])
+        # with col4:
+        #     st.subheader("Podcast Guest Details")
+        #     st.write(podcast_info["podcast_guest"]['summary'])
 
 
 
