@@ -39,10 +39,8 @@ def main():
 
         # Display the podcast guest and their details in a side-by-side layout
         # col3, col4 = st.columns([3, 7])
-
-        
-       st.subheader("Podcast General theme")
-       st.write(podcast_info['podcast_theme'])
+        st.subheader("Podcast General theme")
+        st.write(podcast_info['podcast_theme'])
 
 
         # Display the five key moments
